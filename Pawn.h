@@ -1,0 +1,6 @@
+extern void Pathfind(int id,int *memoryLocation,int pawnPipe[],int parentPipe[],int masterPipe[],int *positionX,int *positionY,int targetX,int targetY,int pId,int number);     /*Function used to start moving to the objective*/
+extern short MoveXTarget(int id,int *memoryLocation,int *positionX,int *positionY,int targetX,int targetY,int first,int *dir);   /*Function used to move in the direction of the target X*/
+extern short MoveYTarget(int id,int *memoryLocation,int *positionX,int *positionY,int targetX,int targetY,int first,int *dir);   /*Function used to move in the direction of the target Y*/
+extern short MoveAntiYTarget(int id,int *memoryLocation,int *positionX,int *positionY,int targetX,int targetY);                  /*Function used to move in the opposite direction of the target X*/
+extern short MoveAntiXTarget(int id,int *memoryLocation,int *positionX,int *positionY,int targetX,int targetY);                  /*Function used to move in the opposite direction of the raget Y*/
+extern void StartPawn(int matrixSem,int roundSem,int endRoundSem,int clearPhaseSem,int startRoundSem,int *memoryLocation,int pawnNumber,int playerNumber,int pawnPipe[],int parentPipe[],int masterPipe[]); /*Function used to start the pawn*/

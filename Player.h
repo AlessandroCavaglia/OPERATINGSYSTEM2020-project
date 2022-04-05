@@ -1,0 +1,1 @@
+void start(int MasterPipe[],int playersSemId,int matrixSemId,int masterSem,int comunicationSem,int roundSem,int endRoundSem,int clearSem,int startRoundSem,int* comunicationVar,int *pawnArr,int *flagArr,int *scoreArr,int playernumber);
